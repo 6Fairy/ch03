@@ -8,19 +8,33 @@ package edu.xcdq;
 public class Demo {
     private String name;
     private int age;
+    private int  weight;
+    private int  high;
+
+
     //设置值  setter
-    public void setName(String name){
-        this.name=name;
+    public void setName(String name) {
+        this.name = name;
     }
+
     //获取值  getter
-    public  String getName(){
+    public String getName() {
         return this.name;
     }
-    public void setAge(int age){
-        this.age =age;
+
+    public void setAge(int age) {
+        this.age = age;
     }
-    public  int getAge(){
+
+    public int getAge() {
         return this.age;
     }
 
+    public  void setWeight(int weight){ this.weight = weight;}
+
+    public int getWeight() {
+        return this.weight;
+    }
+    public  void setHigh(int high){this.high=high;}
+    public  int  getHigh(){return this.high;}
 }

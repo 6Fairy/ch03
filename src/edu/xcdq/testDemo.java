@@ -12,7 +12,11 @@ public class testDemo {
         Demo demo = new Demo();
         demo.setName("小明");
         demo.setAge(19);
+        demo.setWeight(2);
+        demo.setHigh(3);
         System.out.println(demo.getName());
         System.out.println(demo.getAge());
+        System.out.println(demo.getWeight());
+        System.out.println((demo.getHigh()));
     }
 }
